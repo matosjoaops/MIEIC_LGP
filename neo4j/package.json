@@ -11,9 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "neo4j-driver": "^4.4.5",
-    "neode": "^0.4.8",
-    "nodemon": "^2.0.15"
+    "neode": "^0.4.8"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
